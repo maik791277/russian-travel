@@ -1,0 +1,22 @@
+.place__paragraph {
+    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    grid-area: paragraph;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.place__paragraph:first-child {
+    margin-bottom: 26px;
+}
+
+@media all and (max-width: 768px) { 
+    .place__paragraph {
+        font-size: 16px;
+    }
+}

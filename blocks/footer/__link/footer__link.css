@@ -1,0 +1,37 @@
+.footer__link {
+    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+    margin-right: 14px;
+    transition: 0.3s;
+}
+
+.footer__link:last-child {
+    margin-right: 0px;
+}
+
+.footer__link:hover {
+    opacity: 0.8;
+}
+
+
+@media all and (max-width: 768px) { 
+    .footer__link {
+        margin-right: 0;
+        margin-bottom: 18px;
+    }
+    .footer__link:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media all and (max-width: 320px) { 
+    .footer__link {
+        margin-right: 0;
+        margin-bottom: 32px;
+    }
+}

@@ -1,0 +1,6 @@
+@media all and (max-width: 768px) { 
+    .footer__section-link {
+      display: flex;
+      flex-direction: column;
+    }
+}
