@@ -12,24 +12,3 @@
 .cover__link:hover {
     background-color: rgba(42, 44, 47, 0.8);
 }
-
-@media screen and (max-width: 1024px) { 
-    .cover__link {
-        padding-top: 195px;
-        padding-bottom: 195px;
-    }
-}
-
-@media all and (max-width: 768px) { 
-    .cover__link {
-        padding-top: 115px;
-        padding-bottom: 115px;
-    }
-}
-
-@media all and (max-width: 384px) { 
-    .cover__link {
-        padding-top: 70px;
-        padding-bottom: 70px;
-    }
-}

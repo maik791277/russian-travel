@@ -9,15 +9,3 @@
     justify-content: center;
     margin: 92px auto 0 auto;
 }
-
-@media screen and (max-width: 1024px) { 
-    .cover {
-        max-width: 100vw;
-    }
-}
-
-@media all and (max-width: 768px) { 
-    .cover {
-        margin: 69px auto 0 auto;
-    }
-}

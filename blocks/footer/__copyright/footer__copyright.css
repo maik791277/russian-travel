@@ -7,9 +7,3 @@
     line-height: 16px;
     margin: 0;
 }
-
-@media all and (max-width: 384px) { 
-    .footer__copyright {
-        margin-top: 48px;
-    }
-}

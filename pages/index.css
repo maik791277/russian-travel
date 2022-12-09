@@ -1,7 +1,7 @@
 /* normalize.css */
 @import url(../vendor/normalize.css);
 /* fonys */
-@import url(../fonts/Inter/inter.css);
+@import url(../vendor/fonts/inter.css);
 /* page */
 @import url(../blocks/page/page.css);
 
@@ -46,8 +46,6 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
-
 body {
-    background-color: #2A2C2F;
+  background-color: #2a2c2f;
 }
-
