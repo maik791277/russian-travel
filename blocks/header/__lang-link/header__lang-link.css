@@ -1,14 +1,21 @@
 .header__lang-link {
-    color: #FFF;
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    text-decoration: none;
+  color: #FFF;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: none;
 }
 
 .header__lang-link:first-child {
-    box-sizing: border-box;
-    border-bottom: 2px solid #fff;
-    margin-right: 15px;
+  box-sizing: border-box;
+  border-bottom: 2px solid #fff;
+  margin-right: 15px;
+}
+
+@media all and (min-width: 230px) and (max-width: 768px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
 }

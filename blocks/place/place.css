@@ -1,15 +1,46 @@
 .place {
-    display: grid;
-    grid-template-columns: minmax(min-content, 461px) minmax(456px, 483px);
-    grid-template-areas:
+  display: grid;
+  grid-template-columns: minmax(min-content, 461px) minmax(456px, 483px);
+  grid-template-areas:
     "title website"
     "image paragraph";
-    column-gap: 40px;
-    row-gap: 46px;
-    justify-content: center;
-    margin-bottom: 81px;
+  column-gap: 40px;
+  row-gap: 46px;
+  justify-content: center;
+  margin-bottom: 81px;
 }
 
 .place:last-child {
-    margin: 0;
+  margin: 0;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .place {
+    grid-template-columns: minmax(440px, 461px) minmax(456px, 483px);
+    column-gap: 32px;
+    row-gap: 46px;
+    margin-bottom: 82px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .place {
+    grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
+    column-gap: 28px;
+    row-gap: 46px;
+    margin-bottom: 73px;
+  }
+}
+
+@media all and (min-width: 230px) and (max-width: 768px) {
+  .place {
+    grid-template-columns: minmax(230px, 440px);
+    grid-template-areas:
+      "title"
+      "website"
+      "image"
+      "paragraph";
+    row-gap: 32px;
+    margin-bottom: 50px
+  }
 }

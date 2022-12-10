@@ -1,10 +1,17 @@
 .intor__title {
-    max-width: 690px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 54px;
-    line-height: 58px;
-    color: #fff;
-    margin: 0 0 40px 0;
+  max-width: 690px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  color: #fff;
+  margin: 0 0 40px 0;
+}
+
+@media all and (min-width: 230px) and (max-width: 768px) {
+  .intor__title {
+    font-size: 32px;
+    line-height: 35px;  
+  }
 }
