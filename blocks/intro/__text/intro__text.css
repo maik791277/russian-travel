@@ -1,6 +1,5 @@
 .intro__text {
   max-width: 690px;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -11,14 +10,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-@media all and (min-width: 768px) and (max-width: 1023px) {
+@media all and (min-width: 230px) and (max-width: 1023px) {
   .intro__text {
-    margin: 0 0 31px 0;
-  }
-}
-
-@media all and (min-width: 230px) and (max-width: 768px) {
-  .intro__text {
-    margin: 0 0 31px 0;
+    margin-bottom: 31px;
   }
 }

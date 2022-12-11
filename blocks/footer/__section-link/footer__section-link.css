@@ -1,4 +1,4 @@
-@media all and (min-width: 230px) and (max-width: 768px) {
+@media all and (min-width: 230px) and (max-width: 767px) {
   .footer__section-link {
     display: flex;
     flex-direction: column;

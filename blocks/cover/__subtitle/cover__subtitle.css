@@ -1,7 +1,6 @@
 .cover__subtitle {
   max-width: 360px;
   text-align: center;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -11,7 +10,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-@media all and (min-width: 230px) and (max-width: 768px) {
+@media all and (min-width: 230px) and (max-width: 767px) {
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;

@@ -1,6 +1,5 @@
 .place__paragraph {
   color: #fff;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -12,7 +11,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.place__paragraph:first-child {
+.place__paragraph:not(:last-child) {
   margin-bottom: 26px;
 }
 
@@ -22,9 +21,10 @@
   }
 }
 
-@media all and (min-width: 230px) and (max-width: 768px) {
+@media all and (min-width: 230px) and (max-width: 767px) {
   .place__paragraph {
     font-size: 16px;
-    margin: 0 16px 0 16px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }

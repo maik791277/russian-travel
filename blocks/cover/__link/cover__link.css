@@ -1,11 +1,16 @@
 .cover__link {
+  width: 100%;
+  min-height: 740px;
+  height: 100%;
   color: #fff;
-  padding-top: 245px;
-  padding-bottom: 245px;
   width: 100%;
   height: 100%;
   text-decoration: none;
   background-color: rgba(42, 44, 47, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   transition: 1s;
 }
 
@@ -15,28 +20,24 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .cover__link {
-    padding-top: 195px;
-    padding-bottom: 195px;
+    min-height: 640px;
   }
 }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
   .cover__link {
-    padding-top: 115px;
-    padding-bottom: 115px;
+    min-height: 480px;
   }
 }
 
 @media all and (min-width: 425px) and (max-width: 767px) {
   .cover__link {
-    padding-top: 90px;
-    padding-bottom: 90px;
+    min-height: 350px;
   }
 }
 
 @media all and (min-width: 230px) and (max-width: 424px) {
   .cover__link {
-    padding-top: 33px;
-    padding-bottom: 33px;
+    min-height: 200px;
   }
 }

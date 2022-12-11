@@ -10,20 +10,21 @@
   margin: 0 48px 92px 48px;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (min-width: 230px) and (max-width: 1279px) {
   .cover {
-    margin: 0 auto 92px auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
   .cover {
-    margin: 0 auto 88px auto;
+    margin-bottom: 88px;
   }
 }
 
-@media all and (min-width: 230px) and (max-width: 768px) {
+@media all and (min-width: 230px) and (max-width: 767px) {
   .cover {
-    margin: 0 auto 64px auto;
+    margin-bottom: 64px;
   }
 }

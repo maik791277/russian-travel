@@ -3,8 +3,9 @@
   grid-area: website;
 }
 
-@media all and (min-width: 230px) and (max-width: 768px) {
+@media all and (min-width: 230px) and (max-width: 767px) {
   .place__website {
-    margin: 0 16px 0 16px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }

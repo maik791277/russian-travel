@@ -1,7 +1,6 @@
 .cover__title {
   max-width: 560px;
   text-align: center;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -12,7 +11,13 @@
 
 @media all and (min-width: 230px) and (max-width: 767px) {
   .cover__title {
+    max-width: 255px;
     font-size: 32px;
     line-height: 35px;
+    margin-bottom: 17px;
+  }
+
+  .footer__link:last-child {
+    margin-bottom: 0;
   }
 }
