@@ -6,7 +6,6 @@
   line-height: 163%;
   grid-area: paragraph;
   margin: 0;
-  margin-bottom: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -23,6 +22,7 @@
 
 @media all and (min-width: 230px) and (max-width: 767px) {
   .place__paragraph {
+    line-height: 26.08px;
     font-size: 16px;
     margin-left: 16px;
     margin-right: 16px;
